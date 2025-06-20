@@ -1,0 +1,16 @@
+<header class="px-4 py-2 bg-zinc-950 text-gray-100 flex justify-between">
+  <span class="font-semibold text-lg cursor-pointer" (click)="navToHome()">Briggs Reed</span>
+  <span>
+    <a href="/" class="px-4">Home</a>
+    <a href="/portfolio" class="px-4">Portfolio</a>
+    <a href="/about" class="px-4">About</a>
+  </span>
+</header>
+<div class="bg-zinc-900 text-gray-100 min-h-full">
+  <main class="p-4">
+    <router-outlet></router-outlet>
+  </main>
+</div>
+<footer class="bg-zinc-950 text-gray-100 flex flex-col items-center justify-center h-32">
+  <p>Site Repo: <a class="underline" href="https://github.com/breed34/portfolio">github.com/breed34/portfolio</a></p>
+</footer>
